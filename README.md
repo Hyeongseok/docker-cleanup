@@ -4,7 +4,7 @@ Miscellaneous utilities to clean-up Docker cruft.
 
 ## Docker Volume Clean-Up
 
-Examine danging Docker volumes for data that might matter before removing it.
+Examine danging Docker volumes for data that might matter before removing it.  Checkout my [blog post](https://blog.kylemanna.com/linux/2016/09/03/deleting-unused-docker-volumes/) on the topic where I freed up 1.8GB of space wasted by dangling volumes.
 
 Example invocation:
 
