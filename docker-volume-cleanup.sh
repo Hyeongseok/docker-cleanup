@@ -1,5 +1,7 @@
 #!/bin/bash
 
+[[ ! `which tree` ]] && echo "You should have 'tree' installed." && exit
+
 # Overridable: base_dir defaults to where the volumes are most likely stored
 base_dir=${base_dir:-"/var/lib/docker/volumes"}
 
